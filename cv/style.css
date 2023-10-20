@@ -1,0 +1,91 @@
+
+    .principal{
+    font-size: 50px;
+    color: rgb(207, 38, 97);
+    text-align: left;
+    margin-bottom: 2px;
+    display: fixed;
+    text-indent: 2rem;
+    }
+    
+    .nomeinf {
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    display: relative;
+    text-indent: 2rem;
+    }
+    
+    .principal{
+    animation-name: princip;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes princip {
+    5% {
+    color: rgb(172, 0, 0);
+    
+    }
+    25% {
+    color: rgb(229, 96, 8)
+    }
+    
+    50% {
+    color: rgb(55, 181, 55);
+    }
+
+    75%{
+      color: rgb(38, 145, 207);
+    }
+
+    95%{
+      color:rgb(13, 13, 170)
+    }
+
+
+    }
+
+ body{
+   background-color: white;
+   color: black;
+   .nomeinf{
+      color: black;
+   }
+ }
+
+ .dark-mode {
+   background-color: black;
+   color: white;
+   .nomeinf{
+      color: white;
+   }
+   #modo{
+    color: white;
+    background-color: black;
+   }
+   .bt{
+    color: rgb(92, 123, 177);
+   }
+ }
+
+ button{
+   font-size: 13px;
+   border: hidden;
+   background-color: white
+ }
+
+ .bt{
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 2rem;
+  color: rgb(7, 7, 117);
+ }
+
+ .desc{
+  display: none;
+ }
+
+ .aparecer{
+  display: visible;
+ }
